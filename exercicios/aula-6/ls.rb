@@ -1,17 +1,17 @@
 lista_compras = {
-  rafael: ["Banana", "Morango"],
-  carlos: ["Laranja", "Abacaxi"]
+  pansy: ["Banana", "Morango"],
+  luna: ["Laranja", "Abacaxi"]
 }
 
-puts "Rafael vai comprar #{lista_compras[:rafael]}"
-puts "Carlos vai comprar #{lista_compras[:carlos]}"
+puts "Pansy vai comprar #{lista_compras[:rafael]}"
+puts "Luna vai comprar #{lista_compras[:carlos]}"
 lista_compras = {}
-lista_compras[:rafael] = []
-lista_compras[:carlos] = []
-lista_compras[:rafael] << "Banana"
-lista_compras[:rafael] << "Morango"
-lista_compras[:carlos] << "Laranja"
-lista_compras[:carlos] << "Abacaxi"
+lista_compras[:pansy] = []
+lista_compras[:luna] = []
+lista_compras[:pansy] << "Banana"
+lista_compras[:luna] << "Morango"
+lista_compras[:pansy] << "Laranja"
+lista_compras[:luna] << "Abacaxi"
 
-puts "Rafael vai comprar #{lista_compras[:rafael]}"
-puts "Carlos vai comprar #{lista_compras[:carlos]}"
+puts "Pansy vai comprar #{lista_compras[:pansy]}"
+puts "Luna vai comprar #{lista_compras[:luna]}"
