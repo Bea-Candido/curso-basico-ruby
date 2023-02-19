@@ -1,5 +1,10 @@
-list ="Julia!Zoe!Sophia!Isabella!Maria list Eduarda!Manuela!Giovanna!Alice!Laura!Priscila"
+list="Julia!Zoe!Sophia!Isabella!Maria list Eduarda!Manuela!Giovanna!Alice!Laura!Priscila"
 
-list.split("!").each do |person|
-  puts "Hey #{person}"
-end
+
+names= list.split("!")
+names.each do |name|
+  puts "Hey #{name}"
+end  
+
+
+
